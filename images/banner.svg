@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="0%" r="75%">
+      <stop offset="0" stop-color="#2a2c33"/>
+      <stop offset="1" stop-color="#09090b"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="640" fill="url(#glow)"/>
+  <rect width="1280" height="640" fill="url(#grid)"/>
+
+  <!-- mark -->
+  <g transform="translate(96 92) scale(1.25)">
+    <rect x="0.5" y="0.5" width="63" height="63" rx="14" fill="#111214" stroke="#2C2E33"/>
+    <path d="M32 13 L51 23 L32 33 L13 23 Z" fill="#FFFFFF"/>
+    <path d="M13 32 L32 42 L51 32" fill="none" stroke="#FFFFFF" stroke-opacity="0.72" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M13 41 L32 51 L51 41" fill="none" stroke="#FFFFFF" stroke-opacity="0.42" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="192" y="146" fill="#f4f4f5" font-size="44" font-weight="700">WexStack</text>
+  <text x="194" y="176" fill="#a1a1aa" font-size="18">for Windows · free download</text>
+
+  <text x="96" y="276" fill="#ffffff" font-size="64" font-weight="800" letter-spacing="-1.5">Build together.</text>
+  <text x="96" y="350" fill="#8a8a93" font-size="64" font-weight="800" letter-spacing="-1.5">Run anywhere.</text>
+  <text x="98" y="404" fill="#c4c4cc" font-size="22">One app for your team: synced project folders, chat, tasks, calls,</text>
+  <text x="98" y="434" fill="#c4c4cc" font-size="22">screen sharing, remote help and your own servers. Files end-to-end encrypted.</text>
+
+  <!-- feature chips -->
+  <g font-size="16" fill="#e4e4e7">
+    <g transform="translate(96 476)"><rect width="168" height="40" rx="20" fill="#18181b" stroke="#2c2e33"/><text x="84" y="26" text-anchor="middle">Live file sync</text></g>
+    <g transform="translate(276 476)"><rect width="196" height="40" rx="20" fill="#18181b" stroke="#2c2e33"/><text x="98" y="26" text-anchor="middle">Calls &amp; screen share</text></g>
+    <g transform="translate(484 476)"><rect width="150" height="40" rx="20" fill="#18181b" stroke="#2c2e33"/><text x="75" y="26" text-anchor="middle">Remote help</text></g>
+    <g transform="translate(646 476)"><rect width="172" height="40" rx="20" fill="#18181b" stroke="#2c2e33"/><text x="86" y="26" text-anchor="middle">Server manager</text></g>
+    <g transform="translate(830 476)"><rect width="160" height="40" rx="20" fill="#18181b" stroke="#2c2e33"/><text x="80" y="26" text-anchor="middle">1-click deploy</text></g>
+    <g transform="translate(1002 476)"><rect width="182" height="40" rx="20" fill="#18181b" stroke="#2c2e33"/><text x="91" y="26" text-anchor="middle">Run any project</text></g>
+  </g>
+
+  <!-- download button -->
+  <g transform="translate(96 548)">
+    <rect width="330" height="52" rx="12" fill="#f4f4f5"/>
+    <path d="M28 16 v14 m-6 -6 l6 6 6 -6 M20 36 h16" fill="none" stroke="#09090b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="52" y="33" fill="#09090b" font-size="19" font-weight="700">Download at wexstack.com</text>
+  </g>
+  <text x="446" y="581" fill="#8a8a93" font-size="16">Windows 10 / 11 · 64-bit · no admin rights needed</text>
+
+  <!-- mini app window -->
+  <g transform="translate(880 92)">
+    <rect width="304" height="330" rx="14" fill="#111214" stroke="#2c2e33"/>
+    <circle cx="20" cy="20" r="5" fill="#3f3f46"/><circle cx="36" cy="20" r="5" fill="#3f3f46"/><circle cx="52" cy="20" r="5" fill="#3f3f46"/>
+    <text x="20" y="66" fill="#f4f4f5" font-size="17" font-weight="700">Project Library</text>
+    <g font-size="13">
+      <rect x="20" y="82" width="264" height="56" rx="10" fill="#18181b" stroke="#26262b"/>
+      <text x="36" y="106" fill="#f4f4f5" font-weight="600">Website Redesign</text>
+      <circle cx="40" cy="123" r="4" fill="#4ade80"/><text x="50" y="127" fill="#a1a1aa">Synced · 4 members</text>
+      <rect x="20" y="148" width="264" height="56" rx="10" fill="#18181b" stroke="#26262b"/>
+      <text x="36" y="172" fill="#f4f4f5" font-weight="600">Mobile App</text>
+      <circle cx="40" cy="189" r="4" fill="#f59e0b"/><text x="50" y="193" fill="#a1a1aa">Receiving 3 files…</text>
+      <rect x="20" y="214" width="264" height="56" rx="10" fill="#18181b" stroke="#26262b"/>
+      <text x="36" y="238" fill="#f4f4f5" font-weight="600">Game Server</text>
+      <circle cx="40" cy="255" r="4" fill="#4ade80"/><text x="50" y="259" fill="#a1a1aa">Running on port 3000</text>
+      <rect x="20" y="282" width="264" height="32" rx="8" fill="#22c55e" fill-opacity="0.16"/>
+      <text x="152" y="303" fill="#bbf7d0" text-anchor="middle">Ali is sharing their screen · Watch</text>
+    </g>
+  </g>
+</svg>

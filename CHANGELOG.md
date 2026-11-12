@@ -5,6 +5,19 @@ Every version installs over the previous one and keeps your data. The app offers
 
 ---
 
+## 0.5.3 — Projects run the same on every PC
+
+- **Local preparation before Run.** Settings, databases and packages are not synchronized between PCs, which is why a
+  project could show "Running" on a teammate's PC while its page showed an error. Before starting, WexStack now:
+  - installs missing packages (`npm ci` / `npm install`, `composer install`),
+  - creates `.env` from `.env.example` when it is missing (secret values get new random ones),
+  - starts the database the project expects — PostgreSQL, MySQL, MariaDB, MongoDB or Redis — in Docker, reachable only from
+    this PC, with the user, password, database and port from the project's settings; data is kept between runs,
+  - creates the tables (Prisma, Django, Laravel, `db:migrate` scripts).
+  Every step is shown in the run plan first.
+- **Page check.** After starting, WexStack opens the project's page; if it answers with a server error, the reason from the
+  project's own output is shown (for example "Database not reachable") instead of a plain "Running".
+
 ## 0.5.2 — Joining fix
 
 - **Fix:** a new member no longer waits for ever ("Waiting for the key") when the owner created the project without

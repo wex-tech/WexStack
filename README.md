@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/version-0.5.2-f4f4f5?style=flat-square&labelColor=18181b">
+  <img alt="Version" src="https://img.shields.io/badge/version-0.5.3-f4f4f5?style=flat-square&labelColor=18181b">
   <img alt="Windows" src="https://img.shields.io/badge/Windows-10%20%7C%2011%20(64--bit)-f4f4f5?style=flat-square&labelColor=18181b">
   <img alt="No admin" src="https://img.shields.io/badge/install-no%20admin%20rights-f4f4f5?style=flat-square&labelColor=18181b">
   <img alt="Auto update" src="https://img.shields.io/badge/updates-automatic-f4f4f5?style=flat-square&labelColor=18181b">
@@ -110,6 +110,7 @@ certutil -hashfile "%TEMP%\WexStack-Setup.exe" SHA256
 
 ### ▶️ Run any project
 - Smart Runtime detects the project type (Node, .NET, Python, Go, Rust, static sites…), installs what it needs and starts it on a free port.
+- Runs the same on every PC: creates `.env` from the example, starts the project's database locally (Docker) and creates its tables.
 - **Run from GitHub:** paste a repository address — WexStack downloads it and runs it.
 - **Problems** panel: compiler and runtime errors with file, line and a plain-language fix; "Check code" scans without running.
 - Built-in PowerShell terminal in the project folder.
@@ -139,6 +140,7 @@ Calls, screen sharing and remote help are part of the Team plan. See **[wexstack
 
 | Version | Highlights |
 |---|---|
+| **0.5.3** | Run prepares each PC: packages, .env, a local database and its tables; page error check |
 | **0.5.2** | New members get the project key even when the owner has no folder on their PC |
 | **0.5.1** | Fixes first-time installation ("Could not find a part of the path") |
 | **0.5.0** | Project trash (30 days), private messages, remote help, smarter same-file merge, notification sounds |

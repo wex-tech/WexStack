@@ -122,7 +122,7 @@ certutil -hashfile "%TEMP%\WexStack-Setup.exe" SHA256
 - **Share server access** with a teammate without telling them a password.
 
 ### ✨ Everything else
-- 20 interface languages (full Turkish), dark and light theme, Ctrl+K command palette.
+- 19 interface languages, dark and light theme, Ctrl+K command palette.
 - Quiet notification sounds (can be turned off), tray icon, start with Windows.
 - Accounts with sessions and device management; payments by crypto (TRX).
 
@@ -142,7 +142,7 @@ Calls, screen sharing and remote help are part of the Team plan. See **[wexstack
 | **0.5.0** | Project trash (30 days), private messages, remote help, smarter same-file merge, notification sounds |
 | **0.4.1** | Notices fade out by themselves |
 | **0.4.0** | Delete a project for everyone, friends, screen sharing with chosen people, watch without a microphone |
-| **0.3.8 – 0.3.9** | 20 languages, compact Problems panel, Ctrl+K command palette |
+| **0.3.8 – 0.3.9** | 19 languages, compact Problems panel, Ctrl+K command palette |
 | **0.3.3 – 0.3.7** | Calls & screen sharing, server monitoring and backups, project terminal, Run from GitHub |
 | **0.3.0 – 0.3.2** | Servers: SSH terminal, files, deploy, domains, databases, password-free sharing |
 | **0.2.0** | Restore points |
@@ -187,7 +187,7 @@ curl -L -o "%TEMP%\WexStack-Setup.exe" https://wexstack.com/downloads/WexStack-S
 - Arkadaşlar ve özel mesajlar.
 - Herhangi bir projeyi tek tıkla çalıştır, GitHub'dan indirip çalıştır, hataları dosya ve satırıyla gör.
 - Sunucular: terminal, dosyalar, tek tıkla yayınlama, alan adı + HTTPS, veritabanı, izleme, yedekleme, şifresiz erişim paylaşımı.
-- 20 dil (tam Türkçe), açık/koyu tema, otomatik güncelleme, kısık bildirim sesleri.
+- 19 dil, açık/koyu tema, otomatik güncelleme, kısık bildirim sesleri.
 
 > "Windows bilgisayarınızı korudu" uyarısı çıkarsa **Ek bilgi → Yine de çalıştır**'a bas. Uygulama ücretli imza sertifikası
 > olmadığı için bu uyarıyı alıyor; dosyanın SHA-256 değerini yukarıdaki komutla kontrol edebilirsin.

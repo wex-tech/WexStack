@@ -41,7 +41,7 @@ Every version installs over the previous one and keeps your data. The app offers
 
 ## 0.3.8 — Languages and command palette
 
-- **20 interface languages** (full Turkish; core texts in Azerbaijani, German, Spanish, French, Italian, Portuguese, Dutch,
+- **19 interface languages** (English, Turkish, Azerbaijani, German, Spanish, French, Italian, Portuguese, Dutch,
   Polish, Russian, Ukrainian, Arabic, Persian, Hindi, Indonesian, Chinese, Japanese, Korean). Right-to-left for Arabic and Persian.
 - Compact **Problems** panel: one-line summary, the first problems at a glance, *Show all*, errors/warnings filter, copy.
 - **Ctrl+K** command palette: jump to any page, project or server, switch theme or language.

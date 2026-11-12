@@ -5,6 +5,12 @@ Every version installs over the previous one and keeps your data. The app offers
 
 ---
 
+## 0.5.2 — Joining fix
+
+- **Fix:** a new member no longer waits for ever ("Waiting for the key") when the owner created the project without
+  choosing a folder. The project key is now shared automatically whenever the owner, or any teammate who has it,
+  has WexStack open — with or without a folder on that PC.
+
 ## 0.5.1 — Installer fix
 
 - **Fix:** installing for the first time failed on some PCs with *"Could not find a part of the path …\App"*.

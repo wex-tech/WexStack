@@ -5,6 +5,13 @@ Every version installs over the previous one and keeps your data. The app offers
 
 ---
 
+## 0.5.1 — Installer fix
+
+- **Fix:** installing for the first time failed on some PCs with *"Could not find a part of the path …\App"*.
+  The installer now unpacks into a separate folder and swaps it in, and retries when Windows briefly holds a file.
+- A WexStack running from another folder no longer blocks installing.
+- Plans show the current discount (regular price crossed out).
+
 ## 0.5.0 — Trash, private messages, remote help
 
 - **Project trash.** Deleting a project moves it to Trash for 30 days. *Project Library → Trash → Restore* brings it back for

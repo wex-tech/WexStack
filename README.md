@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/version-0.5.0-f4f4f5?style=flat-square&labelColor=18181b">
+  <img alt="Version" src="https://img.shields.io/badge/version-0.5.1-f4f4f5?style=flat-square&labelColor=18181b">
   <img alt="Windows" src="https://img.shields.io/badge/Windows-10%20%7C%2011%20(64--bit)-f4f4f5?style=flat-square&labelColor=18181b">
   <img alt="No admin" src="https://img.shields.io/badge/install-no%20admin%20rights-f4f4f5?style=flat-square&labelColor=18181b">
   <img alt="Auto update" src="https://img.shields.io/badge/updates-automatic-f4f4f5?style=flat-square&labelColor=18181b">
@@ -139,6 +139,7 @@ Calls, screen sharing and remote help are part of the Team plan. See **[wexstack
 
 | Version | Highlights |
 |---|---|
+| **0.5.1** | Fixes first-time installation ("Could not find a part of the path") |
 | **0.5.0** | Project trash (30 days), private messages, remote help, smarter same-file merge, notification sounds |
 | **0.4.1** | Notices fade out by themselves |
 | **0.4.0** | Delete a project for everyone, friends, screen sharing with chosen people, watch without a microphone |

@@ -11,6 +11,7 @@
 
 <p align="center">
   <a href="https://wexstack.com/download"><b>⬇ Download for Windows</b></a> ·
+  <a href="https://github.com/wex-tech/WexStack/releases/latest">Releases</a> ·
   <a href="https://wexstack.com">Website</a> ·
   <a href="https://wexstack.com/pricing">Pricing</a> ·
   <a href="CHANGELOG.md">What's new</a> ·
@@ -42,6 +43,7 @@ your project files.
 ## Download & install
 
 **Easiest:** open **[wexstack.com/download](https://wexstack.com/download)** and press **Download**, then run `WexStack-Setup.exe`.
+Or download it from GitHub: **[Latest release → WexStack-Setup.exe](https://github.com/wex-tech/WexStack/releases/latest/download/WexStack-Setup.exe)**.
 
 **Command Prompt (cmd)** — download and start the installer:
 
